@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="CurrentRunSummaryXSL.xsl"?>
+<currentrunresults>
+	<environment>
+		<application>Rentokil</application>
+		<release>10.20.13</release>
+		<build>13</build>
+	</environment>
+	<executiontime>
+		<start>10:32:42 AM</start>
+		<end>1:50:10 PM</end>
+		<total>2 hrs. 45 mins.</total>
+	</executiontime>
+
+	<overallstatus>
+		<scenario>
+			<name>Scenario1</name>
+			<link>.\ScenarioSummary.xml</link>
+			<passed>1</passed>
+			<failed>1</failed>
+		</scenario>
+		<scenario>
+			<name>Scenario2</name>
+			<link>.\ScenarioSummary.xml</link>
+			<passed>1</passed>
+			<failed>1</failed>
+		</scenario>
+		
+		<total>
+			<passed>2</passed>
+			<failed>2</failed>
+		</total>
+		
+	</overallstatus>
+
+
+	<criticalitystatus>
+		<scenario>
+			<name>Scenario1</name>
+			<passed>
+				<critical>1</critical>
+				<high>0</high>
+				<medium>0</medium>
+				<low>0</low>
+			</passed>
+			<failed>
+				<critical>0</critical>
+				<high>1</high>
+				<medium>0</medium>
+				<low>0</low>
+			</failed>
+		</scenario>
+
+		<scenario>
+			<name>Scenario2</name>
+			<passed>
+				<critical>0</critical>
+				<high>0</high>
+				<medium>1</medium>
+				<low>0</low
+			</passed>
+			<failed>
+				<critical>1</critical>
+				<high>0</high>
+				<medium>0</medium>
+				<low>0</low>
+			</failed>
+		</scenario>
+
+	</criticalitystatus>
+
+</currentrunresults>
